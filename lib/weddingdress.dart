@@ -28,15 +28,15 @@ class _weddState extends State<wedd> {
         'pic': 'assets/myimages/wed2.png',
         'name': 'Cute Fellow',
         'subname': 'Embroderied Semi stich',
-        'price': '15799',
-        'dis': '15% ',
+        'price': '12799',
+        'dis': '12% ',
       },
       {
         'pic': 'assets/myimages/wed3.png',
         'name': 'SLISH',
         'subname': 'Embroderied Semi Stich',
         'price': '16799',
-        'dis': '20% ',
+        'dis': '15% ',
       },
       {
         'pic': 'assets/myimages/wed4.png',
@@ -49,7 +49,7 @@ class _weddState extends State<wedd> {
         'pic': 'assets/myimages/wed5.png',
         'name': 'Neha Creation',
         'subname': 'Self Design Semi Stich ',
-        'price': '20000',
+        'price': '15000',
         'dis': '10% ',
       },
       {
@@ -166,7 +166,7 @@ class _weddState extends State<wedd> {
                                           child: Text(
                                             "${e['name']}",
                                             style: GoogleFonts.anticDidone(
-                                                fontSize: 20,
+                                                fontSize: 15,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.black),
                                           ),
@@ -179,7 +179,7 @@ class _weddState extends State<wedd> {
                                           child: Text(
                                             "${e['subname']}",
                                             style: GoogleFonts.roboto(
-                                                fontSize: 15,
+                                                fontSize: 12,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.black45),
                                           ),
@@ -196,7 +196,7 @@ class _weddState extends State<wedd> {
                                           child: Text(
                                             "${e['price']}",
                                             style: GoogleFonts.anticDidone(
-                                                fontSize: 20,
+                                                fontSize: 15,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.red),
                                           ),
@@ -209,7 +209,7 @@ class _weddState extends State<wedd> {
                                           child: Text(
                                             "${e['dis']}",
                                             style: GoogleFonts.arvo(
-                                              fontSize: 15,
+                                              fontSize: 12,
                                               fontWeight: FontWeight.bold,
                                               color: Colors.blueAccent,
                                             ),
@@ -287,7 +287,7 @@ class _weddState extends State<wedd> {
                         child: Text(
                           "${e['name']}",
                           style: GoogleFonts.anticDidone(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: Colors.black),
                         ),
@@ -300,7 +300,7 @@ class _weddState extends State<wedd> {
                         child: Text(
                           "${e['subname']}",
                           style: GoogleFonts.roboto(
-                              fontSize: 15,
+                              fontSize: 12,
                               fontWeight: FontWeight.bold,
                               color: Colors.black45),
                         ),
@@ -313,7 +313,7 @@ class _weddState extends State<wedd> {
                         child: Text(
                           "${e['price']}",
                           style: GoogleFonts.anticDidone(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: Colors.red),
                         ),
@@ -326,7 +326,7 @@ class _weddState extends State<wedd> {
                         child: Text(
                           "${e['dis']}",
                           style: GoogleFonts.arvo(
-                            fontSize: 15,
+                            fontSize: 12,
                             fontWeight: FontWeight.bold,
                             color: Colors.blueAccent,
                           ),

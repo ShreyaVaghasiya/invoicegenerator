@@ -41,7 +41,7 @@ class _HomeState extends State<Home> {
               },
               child: Container(
                 margin: EdgeInsets.all(10),
-                  child: Icon(Icons.shopping_cart,size: 30,color: Color(0xffFFCACA))),
+                  child: Icon(Icons.shopping_cart,size: 25,color: Color(0xffFFCACA))),
             )
           ],
         ),
@@ -71,14 +71,14 @@ class _HomeState extends State<Home> {
                           Align(
                               child: Text("Wedding Dress",
                                 style: GoogleFonts.capriola(
-                                  fontSize: 30,
+                                  fontSize: 25,
                                   color: Color(0xff251B37)
                                 ),
                               )),
                           Align(
                               child: Text("New Collection",
                                 style: GoogleFonts.capriola(
-                                    fontSize: 20,
+                                    fontSize: 15,
                                     fontWeight: FontWeight.bold,
                                     color: Color(0xffE14D2A)
                                 ),
@@ -103,14 +103,14 @@ class _HomeState extends State<Home> {
                           Align(
                               child: Text("Stylish Wear",
                                 style: GoogleFonts.capriola(
-                                    fontSize: 30,
+                                    fontSize: 25,
                                     color: Colors.white
                                 ),
                               )),
                           Align(
                               child: Text("New Collection",
                                 style: GoogleFonts.capriola(
-                                    fontSize: 20,
+                                    fontSize: 15,
                                     fontWeight: FontWeight.bold,
                                     color: Color(0xffE14D2A)
                                 ),
@@ -135,14 +135,14 @@ class _HomeState extends State<Home> {
                           Align(
                               child: Text("Traditional Wear",
                                 style: GoogleFonts.capriola(
-                                    fontSize: 30,
+                                    fontSize: 25,
                                     color: Color(0xff251B37)
                                 ),
                               )),
                           Align(
                               child: Text("New Collection",
                                 style: GoogleFonts.capriola(
-                                    fontSize: 20,
+                                    fontSize: 15,
                                     fontWeight: FontWeight.bold,
                                     color: Color(0xffE14D2A)
                                 ),
@@ -168,14 +168,14 @@ class _HomeState extends State<Home> {
                           Align(
                               child: Text("Saree",
                                 style: GoogleFonts.capriola(
-                                    fontSize: 30,
+                                    fontSize: 25,
                                     color: Colors.white
                                 ),
                               )),
                           Align(
                               child: Text("New Collection",
                                 style: GoogleFonts.capriola(
-                                    fontSize: 20,
+                                    fontSize: 15,
                                     fontWeight: FontWeight.bold,
                                     color: Color(0xffE14D2A)
                                 ),
@@ -201,14 +201,14 @@ class _HomeState extends State<Home> {
                           Align(
                               child: Text("Stylish Girl",
                                 style: GoogleFonts.capriola(
-                                    fontSize: 30,
+                                    fontSize: 25,
                                     color: Colors.black,
                                 ),
                               )),
                           Align(
                               child: Text("New Collection",
                                 style: GoogleFonts.capriola(
-                                    fontSize: 20,
+                                    fontSize: 15,
                                     fontWeight: FontWeight.bold,
                                     color: Color(0xffE14D2A)
                                 ),

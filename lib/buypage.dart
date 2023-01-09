@@ -31,7 +31,7 @@ class _BuyNowState extends State<BuyNow> {
           "Your Order",
           style: GoogleFonts.amiri(
               textStyle: TextStyle(
-                  fontSize: 35,
+                  fontSize: 25,
                   letterSpacing: 1,
                   color: Color(0xffFBF2CF),
                   fontWeight: FontWeight.bold)),
@@ -42,7 +42,7 @@ class _BuyNowState extends State<BuyNow> {
       ),
       body: Column(
         children: [
-          Padding(padding: EdgeInsets.all(10)),
+          Padding(padding: EdgeInsets.all(15)),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: Row(
@@ -53,8 +53,8 @@ class _BuyNowState extends State<BuyNow> {
                     height: 220,
                     width: 200,
                     decoration: BoxDecoration(
-                        color: Color(0xff790252),
-                        borderRadius: BorderRadius.circular(10),
+                        color: Color(0xff790152),
+                        borderRadius: BorderRadius.circular(15),
                         border: Border.all(color: Colors.black, width: 5)),
                     child: Image(image: AssetImage(cartList[0]),fit: BoxFit.cover,)
                   ),
@@ -68,20 +68,20 @@ class _BuyNowState extends State<BuyNow> {
                         Text(
                           "Contact No:",
                           style: GoogleFonts.merriweather(
-                              fontSize: 15,
+                              fontSize: 12,
                               fontWeight: FontWeight.bold,
                               color: Color(0xff4C0033)),
                         ),
                         Text(
                           "9909735649",
                           style: GoogleFonts.roboto(
-                              fontSize: 15,
+                              fontSize: 12,
                               fontWeight: FontWeight.bold,
                               color: Color(0xffAF0171)),
                         )
                       ],
                     ),
-                    Padding(padding: EdgeInsets.all(10)),
+                    Padding(padding: EdgeInsets.all(15)),
                     SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: Row(
@@ -89,7 +89,7 @@ class _BuyNowState extends State<BuyNow> {
                           Text(
                             "Address:",
                             style: GoogleFonts.merriweather(
-                                fontSize: 15,
+                                fontSize: 12,
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xff4C0033)),
                           ),
@@ -98,21 +98,21 @@ class _BuyNowState extends State<BuyNow> {
                               Text(
                                 "90,Alka Residency",
                                 style: GoogleFonts.roboto(
-                                    fontSize: 15,
+                                    fontSize: 10,
                                     fontWeight: FontWeight.bold,
                                     color: Color(0xffAF0171)),
                               ),
                               Text(
                                 "Nehru Road",
                                 style: GoogleFonts.roboto(
-                                    fontSize: 15,
+                                    fontSize: 10,
                                     fontWeight: FontWeight.bold,
                                     color: Color(0xffAF0171)),
                               ),
                               Text(
                                 "Ahemdabad",
                                 style: GoogleFonts.roboto(
-                                    fontSize: 15,
+                                    fontSize: 10,
                                     fontWeight: FontWeight.bold,
                                     color: Color(0xffAF0171)),
                               )
@@ -134,13 +134,13 @@ class _BuyNowState extends State<BuyNow> {
           ),
           Padding(padding: EdgeInsets.all(5)),
           Container(
-            margin: EdgeInsets.all(10),
+            margin: EdgeInsets.all(15),
             child: Container(
               height: 400,
               width: 400,
               decoration: BoxDecoration(
                   color: Colors.black12,
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(15),
                   border: Border.all(color: Colors.black, width: 5)),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -154,16 +154,16 @@ class _BuyNowState extends State<BuyNow> {
                         "Product Name :",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Colors.black,
                         ),
                       ),
-                      Padding(padding: EdgeInsets.all(10)),
+                      Padding(padding: EdgeInsets.all(15)),
                       Text(
                         "${cartList[1]}",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Color(0xff4C0033),
                         ),
                       )
@@ -178,16 +178,16 @@ class _BuyNowState extends State<BuyNow> {
                         "Product Price :",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Colors.black,
                         ),
                       ),
-                      Padding(padding: EdgeInsets.all(10)),
+                      Padding(padding: EdgeInsets.all(15)),
                       Text(
                         "₹${cartList[3]}",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Color(0xff4C0033),
                         ),
                       )
@@ -202,16 +202,16 @@ class _BuyNowState extends State<BuyNow> {
                         "Discount :",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Colors.black,
                         ),
                       ),
-                      Padding(padding: EdgeInsets.all(10)),
+                      Padding(padding: EdgeInsets.all(15)),
                       Text(
                         "${cartList[4]} Off",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Color(0xff4C0033),
                         ),
                       )
@@ -226,14 +226,14 @@ class _BuyNowState extends State<BuyNow> {
                         "Quantity :",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Colors.black,
                         ),
                       ),
-                      Padding(padding: EdgeInsets.all(10)),
+                      Padding(padding: EdgeInsets.all(15)),
                       SizedBox(
-                          height: 40,
-                          width: 40,
+                          height: 30,
+                          width: 30,
                           child: FloatingActionButton(
                             backgroundColor: Colors.pink,
                             onPressed: () {
@@ -248,14 +248,14 @@ class _BuyNowState extends State<BuyNow> {
                         "${quant}",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Color(0xff4C0033),
                         ),
                       ),
                       Padding(padding: EdgeInsets.all(5)),
                       SizedBox(
-                          height: 40,
-                          width: 40,
+                          height: 30,
+                          width: 30,
                           child: FloatingActionButton(
                             backgroundColor: Colors.transparent,
                             onPressed: () {
@@ -280,16 +280,16 @@ class _BuyNowState extends State<BuyNow> {
                         "Amount :",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Colors.black,
                         ),
                       ),
-                      Padding(padding: EdgeInsets.all(10)),
+                      Padding(padding: EdgeInsets.all(15)),
                       Text(
                         "₹${int.parse(cartList[3])*quant.toInt()}",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 30,
+                          fontSize: 20,
                           color: Color(0xff4C0033),
                         ),
                       )
@@ -304,16 +304,16 @@ class _BuyNowState extends State<BuyNow> {
                         "Total Payment :",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Colors.black,
                         ),
                       ),
-                      Padding(padding: EdgeInsets.all(10)),
+                      Padding(padding: EdgeInsets.all(15)),
                       Text(
-                        "₹${(int.parse(cartList[3])*quant*10)-((int.parse(cartList[3])*quant*10)/100).toInt()}",
+                        "₹${(int.parse(cartList[3])*quant*15)-((int.parse(cartList[3])*quant*15)/150).toInt()}",
                         style: GoogleFonts.crimsonPro(
                           fontWeight: FontWeight.bold,
-                          fontSize: 30,
+                          fontSize: 20,
                           color: Color(0xff4C0033),
                         ),
                       )

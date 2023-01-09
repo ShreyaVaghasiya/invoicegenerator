@@ -48,7 +48,7 @@ class _cartState extends State<cart> {
                 child: Row(
                   children: [
                     Container(
-                      height: 400,
+                      height: 200,
                       width: 150,
                       child: Image(
                         image: AssetImage(globals.addcart[index]['opic']),
@@ -61,24 +61,24 @@ class _cartState extends State<cart> {
                       children: [
                         Text("${globals.addcart[index]['oname']}",style: GoogleFonts.lora(
                           fontWeight: FontWeight.bold,
-                          fontSize: 25,
+                          fontSize: 15,
                           color: Color(0xff4C0033)
                         ),),
                         Padding(padding: EdgeInsets.all(5)),
                         Text("${globals.addcart[index]['osub']}",style: GoogleFonts.lora(
                             fontWeight: FontWeight.bold,
-                            fontSize: 20,
+                            fontSize: 15,
                             color: Color(0xff790252)
                         ),),Padding(padding: EdgeInsets.all(5)),
                         Text("₹${globals.addcart[index]['oprice']}",style: GoogleFonts.lora(
                             fontWeight: FontWeight.bold,
-                            fontSize: 25,
+                            fontSize: 15,
                             color: Color(0xffAF0171)
                         ),),
                         Padding(padding: EdgeInsets.all(5)),
                         Text("${globals.addcart[index]['odis']} Off",style: GoogleFonts.lora(
                             fontWeight: FontWeight.bold,
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Color(0xffE80F88)
                         ),),
                         Padding(padding: EdgeInsets.all(10)),
@@ -95,8 +95,8 @@ class _cartState extends State<cart> {
                             });
                           },
                           child: Container(
-                            height: 60,
-                            width: 220,
+                            height: 50,
+                            width: 130,
                           decoration: BoxDecoration(
                             color: Color(0xff790252),
                             borderRadius: BorderRadius.circular(10)
@@ -104,7 +104,7 @@ class _cartState extends State<cart> {
                             child:Center(
                               child: Text("Buy Now",style: GoogleFonts.lora(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 35,
+                                  fontSize: 18,
                                   color: Colors.white
                               ),),
                             ),

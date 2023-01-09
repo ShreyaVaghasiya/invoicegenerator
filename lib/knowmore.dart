@@ -38,14 +38,14 @@ class _knowState extends State<know> {
             },
             child: Icon(
               Icons.arrow_back_ios_sharp,
-              size: 30,
+              size: 20,
               color: Color(0xffFBF2CF),
             )),
         title: Text(
           "Your choice",
           style: GoogleFonts.amiri(
               textStyle: TextStyle(
-                  fontSize: 30,
+                  fontSize: 20,
                   color: Color(0xffFBF2CF),
                   fontWeight: FontWeight.bold)),
         ),
@@ -60,8 +60,8 @@ class _knowState extends State<know> {
             Center(
                 child: Container(
                     decoration: BoxDecoration(
-                        border: Border.all(color: Color(0xff25316D), width: 5),
-                        borderRadius: BorderRadius.circular(20),
+                        border: Border.all(color: Color(0xff15316D), width: 5),
+                        borderRadius: BorderRadius.circular(15),
                         boxShadow: [
                           BoxShadow(
                               blurRadius: 4,
@@ -75,7 +75,7 @@ class _knowState extends State<know> {
                           duration: Duration(seconds: 2)),
                       child: Image(
                         image: AssetImage("${args[0]}"),
-                        height: 300,
+                        height: 200,
                         width: 400,
                       ),
                     ))),
@@ -121,7 +121,7 @@ class _knowState extends State<know> {
                             "ADD TO CART",
                             style: GoogleFonts.roboto(
                               textStyle: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 12,
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold),
                             ),
@@ -129,6 +129,7 @@ class _knowState extends State<know> {
                         ),
                       ),
                     ),
+
                   ),
                 ),
                 Align(
@@ -153,7 +154,7 @@ class _knowState extends State<know> {
                     "${args[1]}",
                     style: GoogleFonts.autourOne(
                         textStyle: TextStyle(
-                            fontSize: 25,
+                            fontSize: 15,
                             color: Colors.red,
                             fontWeight: FontWeight.bold)),
                   )),
@@ -164,7 +165,7 @@ class _knowState extends State<know> {
                 "  ${args[2]}",
                 style: GoogleFonts.share(
                     textStyle: TextStyle(
-                        fontSize: 23,
+                        fontSize: 15,
                         color: Colors.blueGrey,
                         fontWeight: FontWeight.bold)),
               ),
@@ -175,7 +176,7 @@ class _knowState extends State<know> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Container(
-                      margin: EdgeInsets.all(20),
+                      margin: EdgeInsets.all(15),
                       child: WidgetAnimator(
                         incomingEffect:
                         WidgetTransitionEffects.outgoingSlideOutToLeft(
@@ -184,7 +185,7 @@ class _knowState extends State<know> {
                           "${args[3]}",
                           style: GoogleFonts.autourOne(
                               textStyle: TextStyle(
-                                  fontSize: 30,
+                                  fontSize: 20,
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold)),
                         ),
@@ -202,7 +203,7 @@ class _knowState extends State<know> {
                           "${args[4]}",
                           style: GoogleFonts.autourOne(
                               textStyle: TextStyle(
-                                  fontSize: 24,
+                                  fontSize: 20,
                                   color: Colors.green.shade900,
                                   fontWeight: FontWeight.bold)),
                         ),
@@ -234,7 +235,7 @@ class _knowState extends State<know> {
                         "Product Dimensions  : ",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 22,
+                              fontSize: 15,
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             )),
@@ -247,7 +248,7 @@ class _knowState extends State<know> {
                         "12x12x12 cm",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               color: Colors.black54,
                               fontWeight: FontWeight.bold,
                             )),
@@ -266,7 +267,7 @@ class _knowState extends State<know> {
                         "Date First Available  : ",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 22,
+                              fontSize: 15,
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             )),
@@ -276,10 +277,10 @@ class _knowState extends State<know> {
                   alignment: Alignment.centerLeft,
                   child: Container(
                       child: Text(
-                        "6 May 2022",
+                        "6 May 1515",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               color: Colors.black54,
                               fontWeight: FontWeight.bold,
                             )),
@@ -298,7 +299,7 @@ class _knowState extends State<know> {
                         "Manufacturer  : ",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 22,
+                              fontSize: 15,
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             )),
@@ -311,7 +312,7 @@ class _knowState extends State<know> {
                         "ARADHNA CLOTH",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               color: Colors.black54,
                               fontWeight: FontWeight.bold,
                             )),
@@ -330,7 +331,7 @@ class _knowState extends State<know> {
                         "ASIN  : ",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 22,
+                              fontSize: 15,
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             )),
@@ -343,7 +344,7 @@ class _knowState extends State<know> {
                         "B09ZP7M886",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               color: Colors.black54,
                               fontWeight: FontWeight.bold,
                             )),
@@ -362,7 +363,7 @@ class _knowState extends State<know> {
                         "Item part number  : ",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 22,
+                              fontSize: 15,
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             )),
@@ -372,10 +373,10 @@ class _knowState extends State<know> {
                   alignment: Alignment.centerLeft,
                   child: Container(
                       child: Text(
-                        "123456",
+                        "115456",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               color: Colors.black54,
                               fontWeight: FontWeight.bold,
                             )),
@@ -394,7 +395,7 @@ class _knowState extends State<know> {
                         "Country of Origin  : ",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 22,
+                              fontSize: 15,
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             )),
@@ -407,7 +408,7 @@ class _knowState extends State<know> {
                         "INDIA",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               color: Colors.black54,
                               fontWeight: FontWeight.bold,
                             )),
@@ -426,7 +427,7 @@ class _knowState extends State<know> {
                         "Item Dimensions LxWxH  : ",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 22,
+                              fontSize: 15,
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             )),
@@ -439,7 +440,7 @@ class _knowState extends State<know> {
                         "12 x 12  Cm",
                         style: GoogleFonts.roboto(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               color: Colors.black54,
                               fontWeight: FontWeight.bold,
                             )),
